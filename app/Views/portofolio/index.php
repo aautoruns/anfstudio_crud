@@ -14,7 +14,7 @@
                                 <a href="http://wa.me//6285328938346" class="btn text-light mt-3" style="background: #2fc557;"><i class="fa-brands fa-whatsapp"></i>&nbsp&nbsp Shortcut contact</a>
                                 <a href="https://www.instagram.com/anfstudio13/" class="btn text-light mt-3" style="background: #7d3fc5;"><i class="fa-brands fa-instagram"></i>&nbsp&nbsp See details on our Instagram</a>
                                 <?php if (session()->get('role') == 0) : ?>
-                                    <a href="<?= site_url('portofolio/create') ?>" class="btn btn-danger"><i class="fa-brands fa-plus"></i>&nbsp&nbsp Add Portfolio</a>
+                                    <a href="<?= site_url('portofolio/create') ?>" class="btn btn-danger mt-3"><i class="fa-brands fa-plus"></i>&nbsp&nbsp Add Portfolio</a>
                                 <?php endif; ?>
                                 <a class="btn btn-dark text-light mt-3" href="<?= site_url('home/index') ?>" style="text-decoration: none;">
                                     <i class="fa-solid fa-home"></i>
