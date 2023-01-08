@@ -29,8 +29,9 @@
                 </tr>
                 <tr>
                     <td>Payment</td>
-                    <td><?= $transaksi->bayar ?>&nbsp&nbsp&nbsp<a class="fw-bold text-danger" href="https://paygua.com/galihazellaa">Pay Here</a></td>
-
+                    <td>
+                        <a class="fw-bold text-danger" href="https://paygua.com/galihazellaa">Pay Here</a>
+                    </td>
                 </tr>
                 <tr>
                     <td>Price Total</td>

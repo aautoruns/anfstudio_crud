@@ -43,6 +43,12 @@ $alamat = [
     'class' => 'form-control',
     'value' => null,
 ];
+$gambar = [
+    'name' => 'gambar',
+    'id' => 'gambar',
+    'class' => 'form-control',
+    'value' => null,
+];
 $submit = [
     'name' => 'submit',
     'id' => 'submit',
@@ -93,14 +99,9 @@ $submit = [
                 </select>
             </div>
             <div class="form-group mb-2">
-                <label for="bayar">Choose Payment</label>
-                <select class="form-control" id="bayar">
-                    <option>-- Select --</option>
-                    <option value="1">&nbsp&nbsp DANA</option>
-                    <option value="2">&nbsp&nbsp GoPay</option>
-                    <option value="3">&nbsp&nbsp ShopeePay</option>
-                    <option value="4">&nbsp&nbsp OVO</option>
-                    <option value="4">&nbsp&nbsp Transfer Bank</option>
+                <label for="service">Payment Method</label>
+                <select class="form-control" id="service">
+                    <option value="1">DANA & Transfer Only</option>
                 </select>
             </div>
             <div class="input mt-3 mb-4">
