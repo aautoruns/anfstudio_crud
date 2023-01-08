@@ -3,7 +3,7 @@
 
 <!-- Header-->
 <header class="bg-none text-dark">
-    <div class="container-fluid" style="margin-top: 15vh;">
+    <div class="container" style="margin-top: 15vh; margin-bottom: 15vh;">
         <div class="row align-items-center justify-content-center">
             <div class="col-md-5">
                 <div class="my-5 text-center text-xl-start">
@@ -26,10 +26,10 @@
     </div>
 </header>
 <!-- Sample store section-->
-<section class="py-5" style="margin-top: 10rem;">
-    <div class=" container-fluid px-5 my-4">
-        <div class="row gx-5 justify-content-center">
-            <div class="col-lg-8 col-xl-6">
+<section class="py-5">
+    <div class=" container px-5 my-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
                 <div class="text-center">
                     <h2 class="fw-bolder">Sample Store</h2>
                     <p class="lead fw-normal text-muted mb-5">Your best T-shirt should be like your bed; it just feels like you are home when you are in it.</p>
@@ -43,9 +43,9 @@
                     <div class="card-body p-4">
                         <div class="btn btn-danger mb-4">View Product</div>
                         <a class="text-decoration-none link-dark stretched-link" href="<?= site_url('etalase/index') ?>">
-                            <h5 class="card-title mb-3">ANF Ghost White Basic T-Shirt</h5>
+                            <h5 class="card-title fw-bold mb-3">ANF Ghost White Basic T-Shirt</h5>
                         </a>
-                        <p class="card-text mb-2 fw-bold">Materials : White cotton 24's Basic Tee</p>
+                        <p class="card-text mb-2">Materials : White cotton 24's Basic Tee</p>
                         <li>S : chest : 48 - length : 60 - sleeve : 17</li>
                         <li>M : chest : 50 - length : 62 - sleeve : 18</li>
                         <li>L : chest : 52 - length : 64 - sleeve : 19</li>
@@ -57,8 +57,8 @@
                             <div class="d-flex align-items-center">
                                 <img class="rounded-circle me-3" src="/anfstudiologo.svg" width="50px" alt="avatar" />
                                 <div class="small">
-                                    <div class="fw-bold">AFN Studio</div>
-                                    <div class="text-muted">January 6, 2023 &middot; Added 2 hours ago.</div>
+                                    <div class="fw-bold">ANF Studio</div>
+                                    <div class="text-muted">January 6, 2023 &middot; Added 1 Weeks ago.</div>
                                 </div>
                             </div>
                         </div>
@@ -71,9 +71,9 @@
                     <div class="card-body p-4">
                         <div class="btn btn-danger mb-4">View Product</div>
                         <a class="text-decoration-none link-dark stretched-link" href="<?= site_url('etalase/index') ?>">
-                            <h5 class="card-title mb-3">ANF Obsidian Black Basic T-Shirt</h5>
+                            <h5 class="card-title fw-bold mb-3">ANF Obsidian Black Basic T-Shirt</h5>
                         </a>
-                        <p class="card-text mb-2 fw-bold">Materials : Dark cotton 24's Basic Tee</p>
+                        <p class="card-text mb-2">Materials : Dark cotton 24's Basic Tee</p>
                         <li>S : chest : 48 - length : 60 - sleeve : 17</li>
                         <li>M : chest : 50 - length : 62 - sleeve : 18</li>
                         <li>L : chest : 52 - length : 64 - sleeve : 19</li>
@@ -86,7 +86,7 @@
                                 <img class="rounded-circle me-3" src="/anfstudiologo.svg" width="50px" alt="avatar" />
                                 <div class="small">
                                     <div class="fw-bold">AFN Studio</div>
-                                    <div class="text-muted">January 6, 2023 &middot; Added 2 hours ago.</div>
+                                    <div class="text-muted">January 6, 2023 &middot; Added 1 Weeks ago.</div>
                                 </div>
                             </div>
                         </div>
@@ -99,9 +99,9 @@
                     <div class="card-body p-4">
                         <div class="btn btn-danger mb-4">View Product</div>
                         <a class="text-decoration-none link-dark stretched-link" href="<?= site_url('etalase/index') ?>">
-                            <h5 class="card-title mb-3">ANF Dijon Gold Basic T-Shirt</h5>
+                            <h5 class="card-title fw-bold mb-3">ANF Dijon Gold Basic T-Shirt</h5>
                         </a>
-                        <p class="card-text mb-2 fw-bold">Materials : Butter cotton 24's Basic Tee</p>
+                        <p class="card-text mb-2">Materials : Butter cotton 24's Basic Tee</p>
                         <li>S : chest : 48 - length : 60 - sleeve : 17</li>
                         <li>M : chest : 50 - length : 62 - sleeve : 18</li>
                         <li>L : chest : 52 - length : 64 - sleeve : 19</li>
@@ -113,8 +113,8 @@
                             <div class="d-flex align-items-center">
                                 <img class="rounded-circle me-3" src="/anfstudiologo.svg" width="50px" alt="avatar" />
                                 <div class="small">
-                                    <div class="fw-bold">AFN Studio</div>
-                                    <div class="text-muted">January 6, 2023 &middot; Added 2 hours ago.</div>
+                                    <div class="fw-bold">ANF Studio</div>
+                                    <div class="text-muted">January 6, 2023 &middot; Added 1 Weeks ago.</div>
                                 </div>
                             </div>
                         </div>
@@ -126,21 +126,19 @@
 </section>
 
 <!-- Carousel -->
-<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-<section class="carousel" id="carousel">
+<section class="container carousel" id="carousel">
     <div class="carousel__wrapper">
-        <div>
+        <div class="text-center">
+            <h2 class="fw-bolder mb-5">Some of Our Portfolio</h2>
             <div class="carousel__content">
                 <div class="carousel__container">
+
                     <div class="carousel__slide">
                         <div class="card">
                             <div class="card__inner">
-                                <div class="card__image">
-                                    <a href="<?= site_url('portofolio/index') ?>">
-                                        <img src="https://i.imgur.com/tchwJZS_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
-                                    </a>
-                                </div>
-                                <h4>Sample Portfolio</h4>
+                                <a href="<?= site_url('portofolio/index') ?>">
+                                    <img src="https://i.imgur.com/tchwJZS_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
+                                </a>
                             </div>
                         </div>
                     </div>&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -148,70 +146,57 @@
                     <div class="carousel__slide">
                         <div class="card">
                             <div class="card__inner">
-                                <div class="card__image">
-                                    <a href="<?= site_url('portofolio/index') ?>">
-                                        <img src="https://i.imgur.com/lkKY1eE_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
-                                    </a>
-                                </div>
-                                <h4>Sample Portfolio</h4>
-                            </div>
-                        </div>
-                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp
-                    <div class="carousel__slide">
-                        <div class="card">
-                            <div class="card__inner">
-                                <div class="card__image">
-                                    <a href="<?= site_url('portofolio/index') ?>">
-                                        <img src="https://i.imgur.com/XPgSviy_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
-                                    </a>
-                                </div>
-                                <h4>Sample Portfolio</h4>
-                            </div>
-                        </div>
-                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp
-                    <div class="carousel__slide">
-                        <div class="card">
-                            <div class="card__inner">
-                                <div class="card__image">
-                                    <a href="<?= site_url('portofolio/index') ?>">
-                                        <img src="https://i.imgur.com/EszbF45_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
-                                    </a>
-                                </div>
-                                <h4>Sample Portfolio</h4>
-                            </div>
-                        </div>
-                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp
-                    <div class="carousel__slide">
-                        <div class="card">
-                            <div class="card__inner">
-                                <div class="card__image">
-                                    <a href="<?= site_url('portofolio/index') ?>">
-                                        <img src="https://i.imgur.com/8UHLwDP_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
-                                    </a>
-                                </div>
-                                <h4>Sample Portfolio</h4>
-                            </div>
-                        </div>
-                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp
-                    <div class="carousel__slide">
-                        <div class="card">
-                            <div class="card__inner">
-                                <div class="card__image">
-                                    <a href="<?= site_url('portofolio/index') ?>">
-                                        <img src="https://i.imgur.com/MX9Cf3u_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
-                                    </a>
-                                </div>
-                                <h4>Sample Portfolio</h4>
+                                <a href="<?= site_url('portofolio/index') ?>">
+                                    <img src="https://i.imgur.com/lkKY1eE_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
+                                </a>
                             </div>
                         </div>
                     </div>&nbsp&nbsp&nbsp&nbsp&nbsp
 
+                    <div class="carousel__slide">
+                        <div class="card">
+                            <div class="card__inner">
+                                <a href="<?= site_url('portofolio/index') ?>">
+                                    <img src="https://i.imgur.com/XPgSviy_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp
+
+                    <div class="carousel__slide">
+                        <div class="card">
+                            <div class="card__inner">
+                                <a href="<?= site_url('portofolio/index') ?>">
+                                    <img src="https://i.imgur.com/EszbF45_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp
+
+                    <div class="carousel__slide">
+                        <div class="card">
+                            <div class="card__inner">
+                                <a href="<?= site_url('portofolio/index') ?>">
+                                    <img src="https://i.imgur.com/8UHLwDP_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <div class="carousel__slide">
+                        <div class="card">
+                            <div class="card__inner">
+                                <a href="<?= site_url('portofolio/index') ?>">
+                                    <img src="https://i.imgur.com/MX9Cf3u_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp
                 </div>
                 <div id="prev-slide" class="arrow arrow--left">
-                    <i class="bx bx-chevron-left"></i>
+                    <i class="fa-solid fa-angle-left"></i>
                 </div>
                 <div id="next-slide" class="arrow arrow--right">
-                    <i class="bx bx-chevron-right"></i>
+                    <i class="fa-solid fa-angle-right"></i>
                 </div>
             </div>
         </div>
@@ -221,17 +206,16 @@
 
 <!-- About section-->
 <div class="py-5 bg-light">
-    <div class="container-fluid px-5 my-5">
+    <div class="container px-5 my-5">
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-10 col-xl-7">
                 <div class="text-center">
                     <div class="fs-4 mb-4 fst-italic">"A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."</div>
                     <div class="d-flex align-items-center justify-content-center">
-                        <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                         <div class="fw-bold">
-                            Antoine de Saint-Exupéry
+                            Ilmi Ahmad
                             <span class="fw-bold text-primary mx-1">/</span>
-                            French writer and poet
+                            CEO of ANF Studio.
                         </div>
                     </div>
                 </div>
@@ -241,7 +225,7 @@
 </div>
 
 <!-- Contact Sesion -->
-<div class="container-fluid mt-5" style="margin-bottom: 15vh;">
+<div class="container mt-5" style="margin-bottom: 15vh;">
     <div class="row">
         <div class="col-md">
             <div class="row">

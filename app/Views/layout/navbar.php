@@ -3,14 +3,14 @@ $session = session();
 ?>
 <nav class="navbar sticky-top navbar-dark bg-dark shadow-sm">
     <div class="container">
-        <a class="navbar-brand" href="/home">
+        <a class="navbar-brand" href="/">
             <img src="/logo.png" alt="" style="max-width: 40px;">&nbsp&nbsp A N F &nbsp S t u d i o .</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title navbar-brand" id="offcanvasDarkNavbarLabel"><i class="fa-solid fa-torii-gate text-danger fw-bold"></i>&nbsp&nbsp A N F &nbsp S t u d i o .</h5>
+                <h5 class="offcanvas-title navbar-brand" id="offcanvasDarkNavbarLabel"><img src="/logo.png" style="max-width: 40px;">&nbsp&nbsp A N F &nbsp S t u d i o .</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
@@ -38,16 +38,15 @@ $session = session();
                                 </ul>
                             </li>
                         <?php endif; ?>
-
                     </ul>
                 <?php endif ?>
                 <div class="nav-item dropdown">
                     <div class="">
                         <hr>
                         <?php if ($session->get('isLoggedIn')) : ?>
-                            <a class="dropdown-item" href="<?= site_url('auth/logout') ?>"><i class="bi bi-box-arrow-in-left"></i>&nbsp Logout</a>
+                            <a class="dropdown-item" href="<?= site_url('auth/logout') ?>"><i class="fa-solid fa-arrow-left-from-bracket"></i>&nbsp Logout</a>
                         <?php else : ?>
-                            <a class="dropdown-item" href="<?= site_url('auth/login') ?>"><i class="bi bi-box-arrow-in-right"></i>&nbsp Login</a>
+                            <a class="dropdown-item" href="<?= site_url('auth/login') ?>"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp Login</a>
                         <?php endif ?>
                     </div>
                 </div>
