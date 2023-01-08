@@ -15,6 +15,7 @@ class TransaksiModel extends Model
         'total_harga',
         'alamat',
         'ongkir',
+        'bayar',
         'custom',
         'created_date',
         'created_by',

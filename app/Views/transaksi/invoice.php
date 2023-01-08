@@ -39,6 +39,7 @@
                         <th><strong>Total</strong></th>
                         <th><strong>Shipping Cost</strong></th>
                         <th><strong>Price Total</strong></th>
+                        <th><strong>Payment</strong></th>
                     </tr>
                     <tr>
                         <td><?= $barang->nama ?></td>
@@ -46,6 +47,7 @@
                         <td><?= $transaksi->jumlah ?></td>
                         <td><?= "Rp " . number_format($transaksi->ongkir, 2, ',', '.') ?></td>
                         <td><?= "Rp " . number_format($transaksi->total_harga, 2, ',', '.') ?></td>
+                        <td><?= $transaksi->bayar ?></td>
                     </tr>
                 </table>
             </div>

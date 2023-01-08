@@ -28,8 +28,13 @@
                     <td><?= $transaksi->jumlah ?></td>
                 </tr>
                 <tr>
+                    <td>Payment</td>
+                    <td><?= $transaksi->bayar ?>&nbsp&nbsp&nbsp<a class="fw-bold text-danger" href="https://paygua.com/galihazellaa">Pay Here</a></td>
+
+                </tr>
+                <tr>
                     <td>Price Total</td>
-                    <td><?= $transaksi->total_harga ?></td>
+                    <td>Rp. <?= $transaksi->total_harga ?>,00</td>
                 </tr>
                 <?php if (session()->get('role') == 0) : ?>
                     <tr>

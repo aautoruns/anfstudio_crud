@@ -15,6 +15,7 @@
                         <th>Total</th>
                         <th>Price</th>
                         <th>Shipping Cost</th>
+                        <th>Payment</th>
                         <th>Custom</th>
                         <th>Action</th>
                     </tr>
@@ -27,6 +28,7 @@
                                 <td><?= $transaksi->alamat ?></td>
                                 <td><?= $transaksi->jumlah ?></td>
                                 <td><?= $transaksi->total_harga ?></td>
+                                <td><?= $transaksi->bayar ?></td>
                                 <td><?= $transaksi->ongkir ?></td>
                                 <td><?= $transaksi->custom ?></td>
                                 <td>

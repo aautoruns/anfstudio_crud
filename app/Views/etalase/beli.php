@@ -92,9 +92,20 @@ $submit = [
                     <option>-- Select --</option>
                 </select>
             </div>
-            <div class="input-group mt-3 mb-4">
-                <input type="file" class="form-control" id="custom">
-                <label class="input-group-text text-danger" for="custom">Custom Your T-Shirt</label>
+            <div class="form-group mb-2">
+                <label for="bayar">Choose Payment</label>
+                <select class="form-control" id="bayar">
+                    <option>-- Select --</option>
+                    <option value="1">&nbsp&nbsp DANA</option>
+                    <option value="2">&nbsp&nbsp GoPay</option>
+                    <option value="3">&nbsp&nbsp ShopeePay</option>
+                    <option value="4">&nbsp&nbsp OVO</option>
+                    <option value="4">&nbsp&nbsp Transfer Bank</option>
+                </select>
+            </div>
+            <div class="input mt-3 mb-4">
+                <label for="file" class="form-label">Input your custom picture (if needed)</label>
+                <input class="form-control" type="file" id="file">
             </div>
             <strong>Estimation : <span id="estimasi"></span></strong>
             <hr>

@@ -245,8 +245,8 @@
     <div class="row">
         <div class="col-md">
             <div class="row">
-                <h1 class="fw-bold" style="margin-bottom: 5vh;">Need a help? Contact Us</h1>
-                <div class="col-xl-8">
+                <div class="col-md">
+                    <h1 class="fw-bold text-center" style="margin-bottom: 5vh;">Need a help? Contact Us</h1>
                     <div class="row gx-5 row-cols-1 row-cols-md-2">
                         <div class="col mb-5 h-100">
                             <a href="http://wa.me//6285328938346" class="btn text-light" style="background: #2fc557;"><i class="fa-brands fa-whatsapp"></i></a>
@@ -269,12 +269,6 @@
                             <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-4">
-                    <h1 class="fw-bold">"Design is not just what it looks like and feels like. Design is how it works."</h1>
-                    <span>
-                        <h5 class="mb-4">- Steve Jobs, co-founder of Apple, Inc.</h5>
-                    </span>
                 </div>
             </div>
         </div>
