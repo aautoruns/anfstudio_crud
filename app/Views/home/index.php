@@ -130,12 +130,13 @@
     <div class="carousel__wrapper">
         <div class="text-center">
             <h2 class="fw-bolder mb-5">Some of Our Portfolio</h2>
+
             <div class="carousel__content">
                 <div class="carousel__container">
 
                     <div class="carousel__slide">
                         <div class="card">
-                            <div class="card__inner">
+                            <div class="card-img-top">
                                 <a href="<?= site_url('portofolio/index') ?>">
                                     <img src="https://i.imgur.com/tchwJZS_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
                                 </a>
@@ -145,7 +146,7 @@
 
                     <div class="carousel__slide">
                         <div class="card">
-                            <div class="card__inner">
+                            <div class="card-img-top">
                                 <a href="<?= site_url('portofolio/index') ?>">
                                     <img src="https://i.imgur.com/lkKY1eE_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
                                 </a>
@@ -155,7 +156,7 @@
 
                     <div class="carousel__slide">
                         <div class="card">
-                            <div class="card__inner">
+                            <div class="card-img-top">
                                 <a href="<?= site_url('portofolio/index') ?>">
                                     <img src="https://i.imgur.com/XPgSviy_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
                                 </a>
@@ -165,7 +166,7 @@
 
                     <div class="carousel__slide">
                         <div class="card">
-                            <div class="card__inner">
+                            <div class="card-img-top">
                                 <a href="<?= site_url('portofolio/index') ?>">
                                     <img src="https://i.imgur.com/EszbF45_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
                                 </a>
@@ -175,7 +176,7 @@
 
                     <div class="carousel__slide">
                         <div class="card">
-                            <div class="card__inner">
+                            <div class="card-img-top">
                                 <a href="<?= site_url('portofolio/index') ?>">
                                     <img src="https://i.imgur.com/8UHLwDP_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
                                 </a>
@@ -184,7 +185,7 @@
                     </div>&nbsp&nbsp&nbsp&nbsp&nbsp
                     <div class="carousel__slide">
                         <div class="card">
-                            <div class="card__inner">
+                            <div class="card-img-top">
                                 <a href="<?= site_url('portofolio/index') ?>">
                                     <img src="https://i.imgur.com/MX9Cf3u_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Charmander" />
                                 </a>

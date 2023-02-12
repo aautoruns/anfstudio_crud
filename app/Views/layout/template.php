@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/anfstudiologo.svg" type="image/x-icon">
     <title>ANF Studio | Tugas Akhir</title>
+    
+    <!-- Font -->
+    <link href="https://fonts.cdnfonts.com/css/coolvetica-2" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/css/bootstrap.min.css" integrity="sha512-72OVeAaPeV8n3BdZj7hOkaPSEk/uwpDkaGyP4W2jSzAC8tfiO4LMEDWoL3uFp5mcZu+8Eehb4GhZWFwvrss69Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style.css'); ?>" media="all" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style.css'); ?>" ?v=0.001">
 </head>
 
 <body>

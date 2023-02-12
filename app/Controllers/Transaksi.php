@@ -73,7 +73,6 @@ class Transaksi extends BaseController
         $pdf->SetTitle('Invoice');
         $pdf->SetSubject('Invoice');
 
-
         $pdf->setPrintHeader(false);
         $pdf->setPrintFooter(false);
 
