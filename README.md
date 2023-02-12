@@ -1,4 +1,4 @@
-<img src="public/logo.png" alt="Logo" width="100" height="100">
+<img src="public/anfstudiologo.svg" alt="Logo" width="100" height="100">
 <h1>ANF Studio e-Commerce Website</h1>
 <h3>Acknowledgments<a href="https://github.com/DeaVenditama/toko_online/"> Dea Venditama</a></h3>
   
@@ -17,7 +17,7 @@
   ![form pembelian](https://user-images.githubusercontent.com/96577430/218324482-cd359e8d-0859-4277-9a16-7da8d79356b5.jpg)
   
 </details>
-<a href='https://anfstudio.000webhostapp.com/'><img src="https://img.shields.io/badge/ANF Studio Demo-bb2d3b?style=for-the-badge&logo=web&logoColor=fff" height="30px"></a>
+<a href='https://anfsablon.000webhostapp.com/'><img src="https://img.shields.io/badge/ANF Studio Demo-bb2d3b?style=for-the-badge&logo=web&logoColor=fff" height="30px"></a>
 
 
 ### About The Project
