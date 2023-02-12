@@ -1,62 +1,78 @@
-# CodeIgniter 4 Application Starter
+<div align="justify">
 
-## What is CodeIgniter?
+<img src="public/logo.png" alt="Logo" width="100" height="100">
+  
+![License](https://img.shields.io/github/license/aautoruns/anfstudio_crud?color=navy&style=for-the-badge)
+![Star](https://img.shields.io/github/stars/aautoruns/anfstudio_crud?color=yellow&logo=github&logoColor=white&style=for-the-badge)
+![Date](https://img.shields.io/github/release-date/aautoruns/pahe_app?color=d81744&style=for-the-badge)
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Getting Started
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+<h3>Project Inspired by <a href="https://github.com/DeaVenditama/toko_online/">Dea Venditama</a></h3>
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+<a href='https://anfstudio.000webhostapp.com/'><img src="https://img.shields.io/badge/Watch Demo-bb2d3b?style=for-the-badge&logo=web&logoColor=fff" height="30px"></a>
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
 
-## Installation & updates
+### About The Project
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+<a href="https://www.instagram.com/anfstudio13/">ANF Studio</a>, is an e-Commerce screen printing house that is well known in Batang Regency. This web CRUD project is also the final project for Web Programming course, my campus.
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+### Built With
 
-## Setup
+Here are some of the technologies I used on this project.
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![CodeIgniter Badge](https://img.shields.io/badge/CodeIgniter-EF4223?logo=codeigniter&logoColor=fff&style=for-the-badge)
+![Bootstrap Badge](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=fff&style=for-the-badge)
+![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=for-the-badge)
+![jQuery Badge](https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=fff&style=for-the-badge)
+![RajaOngkir Badge](https://img.shields.io/badge/RajaOngkir-7A1FA2?logo=&logoColor=fff&style=for-the-badge)
+![PayGua Badge](https://img.shields.io/badge/Paygua-FFF?logo=&logoColor=fff&style=for-the-badge)
+![Font Awesome](https://img.shields.io/badge/FontAwesome-blue?logo=fontawesome&logoColor=fff&style=for-the-badge)
+![00webhosting](https://img.shields.io/badge/00webhost-bb2d3b?logo=00webhost&logoColor=fff&style=for-the-badge)
 
-## Important Change with index.php
+### Features
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+- [x] Multiple Payments
+- [x] Add to Cart
+- [ ] Simple Payment
+- [ ] Automatic Purchasing System
+  - [ ] Shipping
+  - [ ] Auto Estimation
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+See the [open issues](https://github.com/aautoruns/anfstudio_crud/issues) for a full list of proposed features (and known issues).
 
-**Please** read the user guide for a better explanation of how CI4 works!
+## Installation
 
-## Repository Management
+**Below are instructions for you to install and setup this CRUD Project. Be careful and pay close attention so that everything runs perfectly and smoothly.**
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/aautoruns/anfstudio_crud.git
+   ```
+2. Create <a href="https://codeigniter.com/user_guide/dbmgmt/migration.html">Migration DB</a> from **app/Database/Migrations**
+   ```sh
+   php spark migrate -all
+   ```
+3. Get a API Key at [Raja Ongkir](https://rajaongkir.com)
+4. Get a [JQuery](https://code.jquery.com/jquery-3.6.3.min.js)
+5. Get a [CKEditor](https://ckeditor.com)
+6. Install PHP TCPDF Library
+   ```sh
+   composer require tecnickcom/tcpdf
+   ```
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+## Contributing
 
-## Server Requirements
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+1. Fork the Project
+2. Create your ANFSTUDIO_CRUD Branch (`git checkout -b aautoruns/anfstudio_crud`)
+3. Commit your Changes (`git commit -m 'Add some NewFeatures'`)
+4. Push to the Branch (`git push origin aautoruns/anfstudio_crud`)
+5. Open a Pull Request
 
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+</div>
